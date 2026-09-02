@@ -1,0 +1,93 @@
+# Titkos adatok és helyi környezeti fájlok
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Python virtuális környezetek
+.venv/
+venv/
+env/
+.venv-webtop/
+
+# Python gyorsítótár
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Python build fájlok
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Tesztelő és kódelemző gyorsítótárak
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Webtop helyi konfiguráció
+webtop-config/
+webtop-config-*/
+
+# Helyi adatbázisfájlok és mentések
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+
+# Naplók és futásidejű fájlok
+*.log
+*.pid
+*.sock
+logs/
+tmp/
+temp/
+
+# Docker helyi felülírások
+docker-compose.override.yml
+compose.override.yml
+
+# IDE és szerkesztő beállítások
+.idea/
+.fleet/
+*.code-workspace
+.vscode/*
+!.vscode/settings.example.json
+!.vscode/extensions.json
+
+# Operációs rendszer által generált fájlok
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ideiglenes és biztonsági mentések
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.orig
+*.rej
