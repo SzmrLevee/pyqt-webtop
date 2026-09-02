@@ -50,8 +50,8 @@ Az első indulás lassabb lehet, mert a Docker letölti és felépíti a képeke
 ## phpMyAdmin belépés
 
 - Szerver: `mysql`
-- Felhasználónév: az `MYSQL_USER` értéke
-- Jelszó: az `MYSQL_PASSWORD` értéke
+- A phpMyAdmin alapból az `MYSQL_USER` / `MYSQL_PASSWORD` párral nyílik meg
+- Ha manuálisan kell belépni, ugyanazokat az értékeket használd
 
 Root admin belépéshez:
 
